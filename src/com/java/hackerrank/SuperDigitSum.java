@@ -1,4 +1,4 @@
-package com.java.hackerrank.tendayscode;
+package com.java.hackerrank;
 
 import java.io.IOException;
 import java.util.Scanner;

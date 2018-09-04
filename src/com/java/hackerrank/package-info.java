@@ -5,4 +5,4 @@
  * @author apoorva
  *
  */
-package com.java.hackerrank.tendayscode;
+package com.java.hackerrank;
