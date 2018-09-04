@@ -66,6 +66,8 @@ public class Atoi
 		
 		String in = scanner.next();
 		System.out.println(convertToInteger(in));
+		
+		scanner.close();
 	}
 
 }
