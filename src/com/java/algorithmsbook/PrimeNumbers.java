@@ -9,18 +9,17 @@ public class PrimeNumbers
 {
     static boolean isPrime(long n)
     {
-        if(n < 2)
-            return false;
-        for(long i = 2; i*i <= n; i++)
+        if (n % 2 == 0) 
+        	return false;
+        for(long i=3; i*i <= n; i+=2) 
         {
             if(n % i == 0)
                 return false;
         }
         return true;
     }
-
     public static void main(String[] args)
     {
-        System.out.println(isPrime(3));
+        System.out.println(isPrime(25));
     }
 }
